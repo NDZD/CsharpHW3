@@ -4,3 +4,13 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+int TableOfSquares(int N){
+    for (int i = 1; i <= N; i++){
+        System.Console.WriteLine(Math.Pow(i, 3));
+        
+    }  
+      return N;
+}
+
+TableOfSquares(5);
